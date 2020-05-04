@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: MyString
+  level: MyString
+  character: MyString
+  score: 1
+  treasures: 1
+  worms: 1
+
+two:
+  user: MyString
+  level: MyString
+  character: MyString
+  score: 1
+  treasures: 1
+  worms: 1

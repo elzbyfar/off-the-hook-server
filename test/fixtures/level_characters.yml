@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  level: one
+  character: one
+  stat: one
+
+two:
+  level: two
+  character: two
+  stat: two
