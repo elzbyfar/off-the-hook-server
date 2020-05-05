@@ -23,7 +23,7 @@ class Api::V1::StatisticsController < ApplicationController
   private 
 
   def statistic_params 
-    params.require(:statistic).permit(:user, :character, :level_num, :score, :treasures, :worms)
+    params.require(:statistic).permit(:pellet_points, :captured_key, :completed, :user_id, :level_id, :character_id)
   end 
 
 end

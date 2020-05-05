@@ -23,17 +23,17 @@ ActiveRecord::Schema.define(version: 2020_05_04_040438) do
   end
 
   create_table "levels", force: :cascade do |t|
-    t.string "name"
+    t.string "territory_name"
+    t.string "level_name"
     t.integer "max_time"
-    t.integer "nutrients_needed"
+    t.integer "pellet_points_needed"
     t.string "background_image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "statistics", force: :cascade do |t|
-    t.integer "score"
-    t.integer "time_remaining"
+    t.integer "pellet_points"
     t.boolean "captured_key"
     t.boolean "completed"
     t.datetime "created_at", precision: 6, null: false
