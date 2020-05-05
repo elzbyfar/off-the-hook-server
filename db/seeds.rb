@@ -13,35 +13,35 @@ Statistic.delete_all
 
 nemo = Character.create(
   name: "Nemo",
-  image: "client-side/App/assets/img/nemo01.png",
-)
-loquacious = Character.create(
-  name: "Loquacious",
-  image: "client-side/App/assets/img/loquacious01.png",
+  image: "client-side/App/assets/img/nemo.png",
 )
 ignatius = Character.create(
   name: "Ignatius",
-  image: "client-side/App/assets/img/ignatius01.png",
+  image: "client-side/App/assets/img/ignatius.png",
 )
-fugacious = Character.create(
-  name: "Fugacious",
-  image: "client-side/App/assets/img/fugacious01.png",
+tummy_rub = Character.create(
+  name: "Tummy Rub",
+  image: "client-side/App/assets/img/tummy_rub.png",
 )
-nemo = Character.create(
-  name: "Nemo II",
-  image: "client-side/App/assets/img/nemo01.png",
+ariana = Character.create(
+  name: "Ariana",
+  image: "client-side/App/assets/img/ariana.png",
 )
 loquacious = Character.create(
-  name: "Loquacious II",
-  image: "client-side/App/assets/img/loquacious01.png",
+  name: "Loquacious",
+  image: "client-side/App/assets/img/loquacious.png",
 )
-ignatius = Character.create(
-  name: "Ignatius II",
-  image: "client-side/App/assets/img/ignatius01.png",
+garrett = Character.create(
+  name: "Garrett",
+  image: "client-side/App/assets/img/garrett.png",
 )
-fugacious = Character.create(
-  name: "Fugacious II",
-  image: "client-side/App/assets/img/fugacious01.png",
+doug = Character.create(
+  name: "Doug",
+  image: "client-side/App/assets/img/doug.png",
+)
+roger_stan_smith = Character.create(
+  name: "Roger Stan Smith",
+  image: "client-side/App/assets/img/roger_stan_smith.png",
 )
 
 la_palma = Level.create(
@@ -91,7 +91,7 @@ lanzarote = Level.create(
 lou = User.create(
   name: "Lou",
   password: "123", 
-  unlocked_characters: ["Nemo", "Garrett"], 
+  unlocked_characters: ["Nemo", "Ignatius"], 
   unlocked_levels: ["Level One: La Palma", "Level Two: El Hierro"],
   keys: 1
 )
@@ -112,4 +112,13 @@ lou_stat = Statistic.create(
   user_id: 1, 
   level_id: 1, 
   character_id: 1
+)
+lou_stat2 = Statistic.create(
+  score: 140, 
+  time_remaining: 18, 
+  captured_key: false, 
+  completed: false, 
+  user_id: 1, 
+  level_id: 1, 
+  character_id: 2
 )
