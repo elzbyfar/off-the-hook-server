@@ -47,50 +47,50 @@ roger_stan_smith = Character.create(
 la_palma = Level.create(
   territory_name: "La Palma", 
   level_name: "Level One", 
-  max_time: 210, 
-  pellet_points_needed: 110, 
+  max_time: 30, 
+  pellet_points_needed: 30, 
   background_image: "client-side/App/assets/img/background08.jpg"
 )
 el_hierro = Level.create(
   territory_name: "El Hierro", 
   level_name: "Level Two", 
-  max_time: 220, 
-  pellet_points_needed: 120, 
+  max_time: 60, 
+  pellet_points_needed: 100, 
   background_image: "client-side/App/assets/img/background07.jpg"
 )
 el_gomera = Level.create(
   territory_name: "El Gomera", 
   level_name: "Level Three", 
-  max_time: 230, 
-  pellet_points_needed: 130, 
+  max_time: 90, 
+  pellet_points_needed: 180, 
   background_image: "client-side/App/assets/img/background06.jpg"
 )
 tenerife = Level.create(
   territory_name: "Tenerife", 
   level_name: "Level Four", 
-  max_time: 240, 
-  pellet_points_needed: 140, 
+  max_time: 120, 
+  pellet_points_needed: 250, 
   background_image: "client-side/App/assets/img/background05.jpg"
 )
 gran_canaria = Level.create(
   territory_name: "Gran Canaria", 
   level_name: "Level Five", 
-  max_time: 250, 
-  pellet_points_needed: 150, 
+  max_time: 200, 
+  pellet_points_needed: 450, 
   background_image: "client-side/App/assets/img/background04.jpg"
 )
 fuerteventura = Level.create(
   territory_name: "Fuerteventura", 
   level_name: "Level Six", 
-  max_time: 260, 
-  pellet_points_needed: 160, 
+  max_time: 280, 
+  pellet_points_needed: 600, 
   background_image: "client-side/App/assets/img/background03.jpg"
 )
 lanzarote = Level.create(
   territory_name: "Lanzarote", 
   level_name: "Level Seven", 
-  max_time: 270, 
-  pellet_points_needed: 170, 
+  max_time: 350, 
+  pellet_points_needed: 800, 
   background_image: "client-side/App/assets/img/background02.jpg"
 )
 
@@ -99,7 +99,7 @@ lou = User.create(
   name: "Lou",
   password: "123", 
   unlocked_characters: ["Nemo"], 
-  unlocked_levels: ["Level One", "Level Two"],
+  # unlocked_levels: ["Level One", "Level Two"],
   keys: 3
 )
 
@@ -107,7 +107,7 @@ claudia = User.create(
   name: "Clau",
   password: "123", 
   unlocked_characters: ["Nemo"], 
-  unlocked_levels: ["Level One"],
+  # unlocked_levels: ["Level One"],
   keys: 0
 )
 

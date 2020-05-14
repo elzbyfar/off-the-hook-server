@@ -52,7 +52,6 @@ ActiveRecord::Schema.define(version: 2020_05_04_040438) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.text "unlocked_characters", default: [], array: true
-    t.text "unlocked_levels", default: [], array: true
     t.integer "keys"
   end
 
