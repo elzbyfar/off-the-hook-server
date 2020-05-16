@@ -1,4 +1,4 @@
-# OFF THE HOOK
+<h1 align="center">OFF THE HOOK</h1>
 
 ## Description & Game Premise
 
