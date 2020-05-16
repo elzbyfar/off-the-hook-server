@@ -82,6 +82,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 Before you begin, be sure to have the following installed:
 
+- [Front End Repo](https://github.com/elzbyfar/off-the-hook-client-side-update)
 - xCode 11.4.1
 - Ruby 2.6.1
 - Rails 6.0.2.2
