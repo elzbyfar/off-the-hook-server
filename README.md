@@ -1,6 +1,6 @@
 <h1 align="center">OFF THE HOOK</h1>
 
-## Description & Game Premise
+## Description
 
 This is an iOS compatible side-scrolling, 2D, aquatic-themed, multi-level game
 that allows single-handed game-play. The object of the game is for a user to
@@ -82,7 +82,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 Before you begin, be sure to have the following installed:
 
-- [Front End Repo](https://github.com/elzbyfar/off-the-hook-client-side-update)
+- [Front End Repository](https://github.com/elzbyfar/off-the-hook-client-side-update)
 - xCode 11.4.1
 - Ruby 2.6.1
 - Rails 6.0.2.2
